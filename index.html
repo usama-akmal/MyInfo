@@ -1,0 +1,255 @@
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <title>Usama Akmal - Computer Scientist</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <style>
+            .border{border: 5px solid white}
+            .no-mar-top{margin-top: 0px !important;}
+            .no-mar-bot{margin-bottom: 0px !important;}
+            .fullscreen{
+                display: none;
+                width: 100%;
+                height: 0%;
+                background-color: rgba(236, 240, 241,0.95);
+                z-index: 5000;
+                position: fixed;
+                overflow: hidden;
+            }
+            .fullscreen img {
+                height: 200px;
+            }
+        </style>
+    </head>
+
+    <body id="all">
+        <div class="section fullscreen" id="naushad">
+            <div class="row">
+                <div class="col s2 offset-s10 m1 offset-m11 l1 offset-l11">
+                    <i class="material-icons large grey-text" onclick=closeNav("naushad")>lock</i>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s6 offset-s3 m2 offset-m5 l2 offset-l5">
+                    <img src="img/naushad.jpg" class="responsive-img circle border">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s6 offset-s3 m6 offset-m3 l4 offset-l4 center-align">
+                    <h3>He Is <span class="cyan-text text-lighten-1">Naushad Amanat Punjani</span></h3>
+                    <p>The guy who told us how to implement ideas and other things what im discuss with guy is innovative ideas...</p>
+                </div>
+            </div>
+        </div>
+        <div class="section fullscreen" id="salman">
+            <div class="row">
+                <div class="col s2 offset-s10 m1 offset-m11 l1 offset-l11">
+                    <i class="material-icons large grey-text" onclick=closeNav("salman")>lock</i>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s6 offset-s3 m2 offset-m5 l2 offset-l5">
+                    <img src="img/salman.jpg" class="responsive-img circle border">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s6 offset-s3 m6 offset-m3 l4 offset-l4 center-align">
+                    <h3>He Is <span class="cyan-text text-lighten-1">Salman Khan</span></h3>
+                    <p>He is the one who checks the security issues in all projects of ours...</p>
+                </div>
+            </div>
+        </div>
+        <div class="section amber darken-4 orange-text text-lighten-5">
+            <div class="row no-mar-bot">
+                <div class="col s6 offset-s3 m2 offset-m5 l2 offset-l5">
+                    <img class="circle responsive-img border" src="img/me.jpg">
+                </div>
+            </div>
+            <div class="row no-mar-bot">
+                <div class="col s12 m6 offset-m3 l4 offset-l4 center-align">
+                    <h2>Usama Akmal</h2>
+                </div>
+            </div>
+            <div class="row no-mar-bot">
+                <div class="col s12 m6 offset-m3 l6 offset-l3 center-align">
+                    <p>My Daddy told me once when im get in university that teach others what you know and learn from others what they know</p>
+                </div>
+            </div>
+        </div>
+        <div class="section lime accent-1">
+            <div class="row">
+                <div class="col s12 m6 offset-m3 l4 offset-l4 center-align">
+                    <h2>My Friends</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m6 offset-m3 l6 offset-l3">
+                    <div class="card-panel z-depth-1">
+                        <div class="row no-mar-bot">
+                            <div class="col s4 m4 l2">
+                                <img src="img/salman.jpg" class="responsive-img circle">
+                            </div>
+                            <div class="col s8 m8 l10">
+                                <p class="truncate">He is the one who checks the security issues in all projects of ours...</p>
+                                <a class="waves-effect waves-light btn orange darken-3 right" onclick=openNav("salman")><i class="material-icons right">perm_identity</i>Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m6 offset-m3 l6 offset-l3">
+                    <div class="card-panel z-depth-1">
+                        <div class="row no-mar-bot">
+                            <div class="col s4 m4 l2">
+                                <img src="img/naushad.jpg" class="responsive-img circle">
+                            </div>
+                            <div class="col s8 m8 l10">
+                                <p class="truncate">The guy who told us how to implement ideas and other things what im discuss with guy is innovative ideas...</p>
+                                <a class="waves-effect waves-light btn orange darken-3 right" onclick=openNav("naushad")><i class="material-icons right">perm_identity</i>Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section orange accent-3">
+            <div class="row center-align">
+                <div class="col s12 m6 offset-m3 l4 offset-l4">
+                    <h2>My Skills</h2>
+                </div>
+
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col s6 m6 l3">
+                        <div class="card small">
+                            <div class="card-image">
+                                <img src="img/card1.jpg">
+                                <span class="card-title">Card Title</span>
+                            </div>
+                            <div class="card-content">
+                                <p class="truncate">I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s6 m6 l3">
+                        <div class="card small">
+                            <div class="card-image">
+                                <img src="img/card2.jpg">
+                                <span class="card-title">Card Title</span>
+                            </div>
+                            <div class="card-content">
+                                <p class="truncate">I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s6 m6 l3">
+                        <div class="card small">
+                            <div class="card-image">
+                                <img src="img/card3.jpg">
+                                <span class="card-title">Card Title</span>
+                            </div>
+                            <div class="card-content">
+                                <p class="truncate">I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s6 m6 l3">
+                        <div class="card small">
+                            <div class="card-image">
+                                <img src="img/card4.jpg">
+                                <span class="card-title">Card Title</span>
+                            </div>
+                            <div class="card-content">
+                                <p class="truncate">I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s6 m6 l3">
+                        <div class="card small">
+                            <div class="card-image">
+                                <img src="img/card5.jpg">
+                                <span class="card-title">Card Title</span>
+                            </div>
+                            <div class="card-content">
+                                <p class="truncate">I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s6 m6 l3">
+                        <div class="card small">
+                            <div class="card-image">
+                                <img src="img/card6.jpg">
+                                <span class="card-title">Card Title</span>
+                            </div>
+                            <div class="card-content">
+                                <p class="truncate">I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s6 m6 l3">
+                        <div class="card small">
+                            <div class="card-image">
+                                <img src="img/card7.jpg">
+                                <span class="card-title">Card Title</span>
+                            </div>
+                            <div class="card-content">
+                                <p class="truncate">I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s6 m6 l3">
+                        <div class="card small">
+                            <div class="card-image">
+                                <img src="img/card8.jpg">
+                                <span class="card-title">Card Title</span>
+                            </div>
+                            <div class="card-content">
+                                <p class="truncate">I am a very simple card. I am good at containing small bits of information.
+                                    I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        </div>
+
+
+
+
+
+        <script>
+            function openNav(idd) {
+                document.getElementById(idd).style.display = "block";
+                document.getElementById(idd).style.height = "100%";
+            }
+
+            /* Close */
+            function closeNav(idd) {
+                document.getElementById(idd).style.display = "none";
+                document.getElementById(idd).style.height = "0%";
+            }
+        </script>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+    </body>
+  </html>
+        
